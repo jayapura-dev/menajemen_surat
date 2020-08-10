@@ -1,2 +1,19 @@
 # menajemen_surat
-Menajemen Surat dengan Nodejs dan express
+
+## System Requirements :
+
+- Bahasa Utama :
+
+  - Node
+  - JSX
+
+- DBMS :
+
+  - MongoDB
+
+- Framework :
+
+  - express
+
+- HOST PaaS
+  - Github Pages
