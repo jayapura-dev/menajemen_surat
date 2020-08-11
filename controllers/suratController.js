@@ -3,7 +3,6 @@ const Surat = require('./../models/suratModel');
 exports.getAllSurat = async (req, res) => {
   try {
     const surat = await Surat.find();
-
     res.status(200).json({
       status: 'success',
       results: surat.length,

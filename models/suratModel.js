@@ -7,12 +7,19 @@ const suratSchema = new mongoose.Schema({
   },
   perihal: {
     type: String,
+    required: [true, 'Perihal Tidak Boleh Kosong'],
+    trim: true,
   },
   tanggal: {
     type: Date,
+    default: Date.now(),
   },
   status: {
     type: String,
+  },
+  file: {
+    type: String,
+    required: [true, 'File Tidak Boleh Kosong'],
   },
 });
 
